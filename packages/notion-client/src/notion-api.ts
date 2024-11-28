@@ -237,7 +237,7 @@ export class NotionAPI {
         // console.log(block, source)
 
         if (source) {
-          if (!source.includes('secure.notion-static.com')) {
+          if (!source.includes('prod-files-secure')) {
             return []
           }
 
